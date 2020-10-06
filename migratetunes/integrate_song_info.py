@@ -8,7 +8,7 @@ from os.path import expanduser
 from typing import Any
 from urllib.parse import quote
 
-from utils import DEFAULT_ITUNES_LIB_PATH, DEFAULT_ITUNES_MUSIC_ROOT, DEFAULT_RHYTHMBOX_LIB_PATH, DEFAULT_RHYTHMBOX_MUSIC_ROOT, get_itunes_library, warn_invalid_track, write_xml_to_file
+from .utils import DEFAULT_ITUNES_LIB_PATH, DEFAULT_ITUNES_MUSIC_ROOT, DEFAULT_RHYTHMBOX_LIB_PATH, DEFAULT_RHYTHMBOX_MUSIC_ROOT, get_itunes_library, warn_invalid_track, write_xml_to_file
 
 PREFIX_ITUNES_ON_WINDOWS = 'file://localhost/'
 PREFIX_ITUNES_ON_MAC = 'file://'
